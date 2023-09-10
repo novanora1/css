@@ -1,0 +1,49 @@
+html, body {
+    height: 100%; /* Sayfanın yüksekliğini yüzde olarak ayarlayın */
+    margin: 0; /* Kenar boşluklarını kaldırın */
+    padding: 0; /* İç boşlukları kaldırın */
+}
+.menu {
+    background: #800080;
+    width: 10%;
+    height: 100vh; /* Sayfanın yüksekliğini alın */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0; /* Liste içi boşlukları kaldırın */
+    margin: 0px; /* Liste dışı boşlukları kaldırın */
+}
+
+.menu ul li {
+    text-decoration: none;
+}
+
+.menu ul li a {
+    color: white; /* Bağlantı metin rengini belirleyin */
+    text-decoration: none; /* Bağlantı alt çizgisini kaldırın */
+}
+
+.kutu2 {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  color: black;
+    margin-left: 10%; /* Menü genişliği kadar sola kaydırın */
+    padding-top: 50px; /* Menü yüksekliği kadar üste boşluk bırakın */
+
+}
+   .input-container {
+            margin-bottom: 10px; /* Kutular arasında boşluk bırak */
+        }
+
+        .input-container label {
+            display: block; /* Etiketleri dikeyde hizala */
+            margin-bottom: 5px; /* Etiketler arasında boşluk   bırak */
+        }
+
+        .input-container input {
+            padding: 5px; /* İnput etrafında iç boşluk bırak */
+        }
